@@ -1,0 +1,48 @@
+{
+  "objectName" : "trashstation",
+  "colonyTags" : ["crafting","electronic"],
+  "rarity" : "Legendary",
+  "price" : 0,
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/trashstation.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Trash Can",
+        "subtitle" : " For everything to do with disposing items in bulk.",
+        "icon" : {
+          "file" : "/interface/crafting/trashstation.png"
+        }
+      }
+    },
+    "filter" : [ "craftingwiring" ]
+  },
+  "printable" : false,
+  "description" : "Now I can finally get rid of items in bulk!",
+  "shortdescription" : "^orange;Trash Can^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "For such an intelligent race, it's a shame we never thought of a trash can until now.",
+  "avianDescription" : "A place where I can dispose of things I don't need.",
+  "floranDescription" : "Floran can erase thingsss without fire?",
+  "glitchDescription" : "Bewilderment. A perplexing location in the fabric of space that immediately disposes objects. Very useful.",
+  "humanDescription" : "I never thought I'd be happier to see a trash can until now!",
+  "hylotlDescription" : "Finally. A place to cleanly dispose of wastes.",
+  "novakidDescription" : "Blastin' 'round the universe, yet never question'd why there wasn't a convenient way of throwin' trash out!",
+
+  "inventoryIcon" : "trashstationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "trashstation.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
